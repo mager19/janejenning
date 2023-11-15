@@ -18,4 +18,4 @@ jobs:
         key: ${{ secrets.DIGITALOCEAN_SSH_KEY }}
         script: |
           cd /var/www/html/wp-content/ 
-          git pull
+          git pull origin master
