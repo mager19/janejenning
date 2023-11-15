@@ -17,7 +17,7 @@ jobs:
         node-version: '14'
 
     - name: Change to theme directory
-      run: cd /var/www/html/wp-content/themes/janejenning/ 
+      run: cd themes/janejenning/ 
 
     - name: Install dependencies
       run: npm ci
