@@ -28,6 +28,7 @@
 
 	<div class="container mx-auto bg-secondary">
 		<?php get_template_part( 'template-parts/layout/header', 'content' ); ?>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint inventore iure eos excepturi doloremque rem doloribus quae consequuntur sequi earum laudantium tenetur a quos, laboriosam vitae commodi iste officia harum!
 	</div>
 
 	<div id="content">
