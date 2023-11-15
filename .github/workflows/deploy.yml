@@ -20,5 +20,5 @@ jobs:
         script: |
           cd /var/www/html/wp-content/ 
           git pull origin master
-          cd /themes/janejennings
+          cd themes/janejenning/
           npm run prod
