@@ -24,6 +24,9 @@ jobs:
         cd themes/janejenning
         npm ci
     
+    - name: Build
+      run: npm run prod
+    
     - name: Deploy to Digital Ocean
       uses: appleboy/ssh-action@master
       with:
