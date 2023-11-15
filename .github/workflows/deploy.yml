@@ -16,11 +16,10 @@ jobs:
       with:
         node-version: '14'
 
-    - name: Change to theme directory
-      run: cd themes/janejenning/ 
-
     - name: Install dependencies
-      run: npm ci
+      run: |
+        cd themes/janejenning
+        npm ci
     
     - name: Deploy to Digital Ocean
       uses: appleboy/ssh-action@master
