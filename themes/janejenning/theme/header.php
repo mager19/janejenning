@@ -26,7 +26,7 @@
 <div id="page">
 	<a href="#content" class="sr-only"><?php esc_html_e( 'Skip to content', 'janejenning' ); ?></a>
 
-	<div class="container mx-auto bg-tertiary px-4 py-14">
+	<div class="container mx-auto bg-red-300 px-4 py-14">
 		<?php get_template_part( 'template-parts/layout/header', 'content' ); ?>
 		Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint inventore iure eos excepturi doloremque rem doloribus quae consequuntur sequi earum laudantium tenetur a quos, laboriosam vitae commodi iste officia harum!
 	</div>

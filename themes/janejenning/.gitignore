@@ -9,8 +9,8 @@ themes/twentytwentyfour
 *.min.js
 
 # Ignore generated CSS files:
-style.css
-style-editor.css
+# style.css
+# style-editor.css
 
 # Ignore the generated zip file:
 janejenning.zip
